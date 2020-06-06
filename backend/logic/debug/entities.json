@@ -1,0 +1,23 @@
+[
+  {
+    "start": 0,
+    "end": 15,
+    "text": "ng\u00e0y 02-06-2020",
+    "value": "2020-06-02T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-02T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-02T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+]

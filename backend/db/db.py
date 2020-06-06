@@ -17,8 +17,7 @@ def get_sid(fbid):
 
 # schedule
 def has_schedule(sid):
-    return (sid in sid2schedule)
-    #  and (list(sid2schedule[sid].values)[0]['semester'] == get_callender()[0])
+    return (sid in sid2schedule) and (sid2schedule[sid][0]['semester'] == get_callender()[0])
 
 def set_schedule(sid, schedule):
     global sid2schedule

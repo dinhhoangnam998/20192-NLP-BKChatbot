@@ -37,32 +37,33 @@ def tokenize(msg):
             i += 1
         if token in data:
             if data[token] in ["daysago", "nextday", "lastweek", "nextweek", "lastmonth", "nextmonth", "lastyear", "nextyear"]:
-                if w in number_str.keys():
-                    tokens.append({data[token]: number_str[w] + " " + token})
-                    words.remove(w)
-                    remove_token(words=words, token=token)
-                elif w.isnumeric():
-                    tokens.append({data[token]: w + " " + token})
-                    words.remove(w)
-                    remove_token(words=words, token=token)
-                else:
-                    tokens.append({data[token]: token})
-                    remove_token(words=words, token=token)
-                continue
-            if data[token] in ["week", "year"]:
-                if W in number_str.keys():
-                    tokens.append({data[token]: token + " " + number_str[W]})
-                    remove_token(words=words, token=token)
-                    words.remove(W)
-                elif W.isnumeric():
-                    tokens.append({data[token]: token + " " + W})
-                    remove_token(words=words, token=token)
-                    words.remove(W)
-                else:
-                    tokens.append({data[token]: token})
-                    remove_token(words=words, token=token)
-                continue
+                pass
+            #     if w in number_str.keys():
+            #         tokens.append({data[token]: number_str[w] + " " + token})
+            #         words.remove(w)
+            #         remove_token(words=words, token=token)
+            #     elif w.isnumeric():
+            #         tokens.append({data[token]: w + " " + token})
+            #         words.remove(w)
+            #         remove_token(words=words, token=token)
+            #     else:
+            #         tokens.append({data[token]: token})
+            #         remove_token(words=words, token=token)
+            #     continue
+            # if data[token] in ["week", "year"]:
+            #     if W in number_str.keys():
+            #         tokens.append({data[token]: token + " " + number_str[W]})
+            #         remove_token(words=words, token=token)
+            #         words.remove(W)
+            #     elif W.isnumeric():
+            #         tokens.append({data[token]: token + " " + W})
+            #         remove_token(words=words, token=token)
+            #         words.remove(W)
+            #     else:
+            #         tokens.append({data[token]: token})
+            #         remove_token(words=words, token=token)
+            #     continue
 
-            tokens.append({data[token]: token})
-            remove_token(words=words, token=token)
+            # tokens.append({data[token]: token})
+            # remove_token(words=words, token=token)
     return tokens
