@@ -38,6 +38,6 @@ class ActionShowSchedule(Action):
         sender_id = tracker.sender_id
         message = tracker.latest_message.get('text')
         # response = get_response_msg(sender_id, message)
-        response = get_respone(sender_id, message, entities)
+        response = get_respone(sender_id, entities)
         dispatcher.utter_message(text=response)
         return []

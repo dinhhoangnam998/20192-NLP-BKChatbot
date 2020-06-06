@@ -43,7 +43,7 @@ def filter_schedule(time_entities, schedule_table):
         weekday_of_subject = int(row['time'].split(',')[0].split(' ')[1].strip())
         week_now = int(calender_crawler.crawl_callender()[1])
         if (weekday_of_subject == weekday) and (week_now in get_weeks_of_subject(row)):
-            schedule.append("|".join(row.values()))
+            schedule.append("|".join([row['semester'], row['time'], row['classroom'], row['subject_name']]))
   
     if len(schedule) == 0:
         extracted_text = time_entities[0]['text']
