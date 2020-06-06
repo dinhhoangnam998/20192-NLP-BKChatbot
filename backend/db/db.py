@@ -1,7 +1,7 @@
 import json
 from backend.crawler import calender_crawler 
 
-sender_id_to_sid = {'2591237020976102': '20162793'}
+sender_id_to_sid = {'2591237020976102': '20162793', '1756189307838190': '20161925', '2643352335766377': '20161925'}
 sid_to_schedule_table = {}
 
 # sid
