@@ -1,7 +1,7 @@
 import requests
 import lxml.html
 
-def get_schedule(student_id):
+def crawl_schedule_table(student_id):
     url = "http://sis.hust.edu.vn/ModulePlans/Timetables.aspx"
     form = {'__EVENTTARGET': '', 'ctl00$MainContent$Studentid': f'{student_id}', 'ctl00$MainContent$btFind': ''}
     response = requests.post(url, data=form)

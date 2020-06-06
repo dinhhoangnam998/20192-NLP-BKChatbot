@@ -1,1 +1,4 @@
+cd chatbot
+sudo docker run -p 8000:8000 rasa/duckling
 rasa run --credentials credentials.yml --endpoints endpoints.yml
+rasa run actions

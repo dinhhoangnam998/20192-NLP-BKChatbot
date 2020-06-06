@@ -1,6 +1,6 @@
 from datetime import datetime
 from backend.db import db
-from backend.crawler.schedule_crawler import get_schedule
+from backend.crawler.schedule_crawler import get_schedule_table
 from backend.extractor.date_extractor import regex_date
 from backend.crawler.calender_crawler import get_callender
 
@@ -11,7 +11,7 @@ def get_response_msg(sender_id, msg):
     if db.has_schedule(sid):
         schedule_table = db.get_schedule(sid)
     else:
-        schedule_table = get_schedule(sid)
+        schedule_table = get_schedule_table(sid)
         db.set_schedule(sid, schedule_table)
 
     # just first date for now

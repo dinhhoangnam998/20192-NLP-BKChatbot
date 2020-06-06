@@ -1,7 +1,7 @@
 import requests
 import lxml.html
 
-def get_callender():
+def crawl_callender():
     url = "http://sis.hust.edu.vn"
     response = requests.get(url)
     if response.status_code == 200:
