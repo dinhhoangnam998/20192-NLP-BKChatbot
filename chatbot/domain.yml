@@ -1,19 +1,19 @@
 intents:
   - greet
-  - goodbye
-  - thankyou
+  - ask_ability
+  - ask_schedule
   - praise
   - decry
-  - ask_ability
+  - thankyou
+  - goodbye
 
 responses:
   utter_greet:
   - text: "Chào bạn ^^. Mình là chatbot được thiết kế để giúp Huster cập nhật thời khóa biểu một cách thuận tiện hơn"
-
-  utter_goodbye:
-  - text: "Hẹn gặp lại bạn nha ^^"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
+  
+  utter_show_ability:
+  - text: "Mình có thể giúp bạn cập nhật thời khóa biểu trong một ngày hoặc một tuần cụ thể , hoặc thể giúp bạn xem thông tin chi tiết một học phần bất kì trong thời khóa biểu !"
+  
   utter_happy:
   - text: "Hì hì, bạn khen quá lời rồi"
 
@@ -23,11 +23,14 @@ responses:
   utter_noworries:
   - text: "Mình luôn sẵn lòng giúp đỡ bất cứ khi nào các bạn cần ^^"
 
-  utter_show_ability:
-  - text: "Mình có thể giúp bạn cập nhật thời khóa biểu trong một ngày hoặc một tuần cụ thể , hoặc thể giúp bạn xem thông tin chi tiết một học phần bất kì trong thời khóa biểu !"
-  
+  utter_goodbye:
+  - text: "Hẹn gặp lại bạn nha ^^"
+
   utter_fallback:
   - text: "Hic, mình xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói lại được không???"
+
+actions:
+  - action_show_schedule
 
 session_config:
   session_expiration_time: 60
