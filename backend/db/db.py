@@ -1,24 +1,8 @@
 import json
 from backend.crawler.calender_crawler import get_callender
 
-fbid2sid = {'1306121142927554': '20162793'}
+fbid2sid = {'2591237020976102': '20162793'}
 sid2schedule = {}
-
-# semester
-# def get_semester():
-#     return get_callender()[0]
-
-# def set_semester(_semester):
-#     global callender
-#     callender['semester'] = _semester
-
-# week
-# def get_week():
-#     return get_callender()[1]
-
-# def set_week(_week):
-#     global callender
-#     callender['week'] = _week
 
 # sid
 def has_sid(fbid):
@@ -33,7 +17,7 @@ def get_sid(fbid):
 
 # schedule
 def has_schedule(sid):
-    return sid in sid2schedule and sid2schedule[sid]['semester'] == get_callender()[0]
+    return (sid in sid2schedule) and (list(sid2schedule[sid].values)[0]['semester'] == get_callender()[0])
 
 def set_schedule(sid, schedule):
     global sid2schedule
@@ -43,10 +27,6 @@ def get_schedule(sid):
     return sid2schedule[sid]
 
 # save & load
-# def save_callender():
-#     with open('callender.json', 'w') as f:
-#         json.dump(callable, f)
-
 def save_fbid2sid():
     with open('fbid2sid.json', 'w') as f:
         json.dump(fbid2sid, f)
@@ -54,11 +34,6 @@ def save_fbid2sid():
 def save_sid2schedule():
     with open('sid2schedule.json', 'w') as f:
         json.dump(fbid2sid, f)
-
-# def load_callender():
-#     global callender
-#     with open('callender.json') as f:
-#         callender = json.load(f)
 
 def load_fbid2sid():
     global fbid2sid

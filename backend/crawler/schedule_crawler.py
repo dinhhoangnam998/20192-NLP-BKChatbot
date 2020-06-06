@@ -53,4 +53,3 @@ def get_schedule(student_id):
 
         return schedule_table
 
-print(get_schedule(20162793))
