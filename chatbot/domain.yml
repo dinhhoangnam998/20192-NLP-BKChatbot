@@ -36,3 +36,9 @@ actions:
 - utter_noworries
 - utter_goodbye
 - utter_fallback
+entities:
+- time
+slots:
+  time:
+    type: text
+
