@@ -30,7 +30,29 @@
 - em hỗ trợ anh như thế nào?
 - cho anh xem các chức năng của em
 
-## intent: ask_schedule
+## intent:enter_sid
+- 20162793
+- 20151234
+- 20189876
+- 20168263
+- 20172390
+- 20143640
+- 20132850
+- 20179602
+- 20161873
+- 20153948
+- 20199478
+- 20203753
+- 20206372
+- 20132850
+- 20179602
+- 20161873
+- 20153948
+- 20199478
+- 20203753
+- 20206372
+
+## intent:ask_schedule
 - hôm nay có những môn gì
 - ngày mai có môn gì đấy
 - sáng ngày kia mình có những môn nào?
@@ -60,7 +82,7 @@
 - thời khóa biểu kì này
 - cho xem lịch học đi
 
-## intent: ask_a_subject
+## intent:ask_a_subject
 - lịch học môn ""
 - thời khóa biểu môn ""
 - môn học "" vào thứ mấy
@@ -82,7 +104,7 @@
 - ngày đi học môn ""
 - mình muốn xem lịch học của một môn được không?
 
-## intent: praise
+## intent:praise
 - kinh, bot siêu đấy
 - bot siêu ghê
 - ghê
@@ -106,7 +128,7 @@
 - ăn gì khôn phết nhể
 - được đấy nhể
 
-## intent: decry
+## intent:decry
 - quá tệ
 - ngu ngốc
 - chả biết gì cả
@@ -123,7 +145,7 @@
 - đồ con lợn
 - dốt như lợn
 
-## intent: thankyou
+## intent:thankyou
 - cảm ơn bot nhá
 - thanks em nha
 - cảm ơn nha

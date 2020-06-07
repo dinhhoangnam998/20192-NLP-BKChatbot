@@ -10,6 +10,7 @@ intents:
 - decry
 - thankyou
 - goodbye
+- enter_sid
 responses:
   utter_greet:
   - text: Chào bạn 😃. Rất vui được gặp bạn! Mình là chatbot được thiết kế để giúp bạn xem thông tin về lịch học dễ dàng hơn!
@@ -28,6 +29,8 @@ responses:
 actions:
 - action_show_schedule
 - action_show_subject_information
+- action_ask_sid_if_need
+- action_save_sid
 - utter_greet
 - utter_show_ability
 - utter_happy

@@ -1,6 +1,9 @@
-cd chatbot
 sudo docker container ls
 sudo docker rm -f <container-name>
 sudo docker run -p 8000:8000 rasa/duckling
+
+~/Program/ngrok http 5005
+
+cd chatbot
 rasa run --credentials credentials.yml --endpoints endpoints.yml
 rasa run actions

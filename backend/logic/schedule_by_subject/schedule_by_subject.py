@@ -1,6 +1,6 @@
 import sys
 # sys.path.append(r'C:\Users\HoangNam\Documents\Code\xProject\20192-NLP-BTL-BKChatbot')
-sys.path.append('/home/hoangnam/Documents/code/xProjects/bkchatbot')
+# sys.path.append('/home/hoangnam/Documents/code/xProjects/bkchatbot')
 import re
 
 from backend.db import db
@@ -45,4 +45,4 @@ def get_match_rows(schedule_table, msg):
     
     return rows
 
-get_response('2591237020976102', 'cho xin lịch học môn "Khai phá Web" bot ơi')
+# get_response('2591237020976102', 'cho xin lịch học môn "Khai phá Web" bot ơi')

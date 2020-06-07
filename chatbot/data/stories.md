@@ -5,6 +5,11 @@
 ## ask ability
 * ask_ability
   - utter_show_ability
+  - action_ask_sid_if_need
+
+## enter_sid
+* enter_sid
+ - action_save_sid
 
 ## ask_schedule
 * ask_schedule
