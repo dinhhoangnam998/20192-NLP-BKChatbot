@@ -22,6 +22,8 @@
 - em có thể làm những gì nhỉ
 - em giúp gì được anh không?
 - bot có thể giúp gì cho anh?
+- bot làm dc những gì?
+- bot biết làm những gì thế?
 - bạn biết hát không?
 - bạn biết xem lịch học ah?
 - em biết làm gì?
@@ -42,8 +44,7 @@
 - cho xem lịch học ngày 10/06/2020
 - cho xem thời khóa biểu với 
 - thời khóa biểu cho tuần tới
-- lịch học 
-- xem lịch học ngày mai
+- ngày mai
 - môn gì ngày sắp tới
 - cập nhật calendar bot ơi
 - thời khóa biêu có gì mới nào
@@ -56,6 +57,10 @@
 - cho xem lịch học đi
 
 ## intent: ask_a_subject
+- lịch học môn ""
+- thời khóa biểu môn ""
+- môn học "" vào thứ mấy
+- thứ mấy học môn ""
 - cho xin lịch học môn "Tính toán phân tán" với
 - cho hỏi môn "" học vào những hôm nào 
 - khi nào thì phải đi học môn "Khai phá Web" ấy nhỉ

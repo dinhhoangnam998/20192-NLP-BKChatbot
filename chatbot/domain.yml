@@ -12,19 +12,19 @@ intents:
 - goodbye
 responses:
   utter_greet:
-  - text: Chào bạn ^^. Rất vui được gặp bạn! Mình là chatbot được thiết kế để giúp bạn xem thông tin về lịch học dễ dàng hơn!
+  - text: Chào bạn 😃. Rất vui được gặp bạn! Mình là chatbot được thiết kế để giúp bạn xem thông tin về lịch học dễ dàng hơn!
   utter_show_ability:
-  - text: Mình có thể giúp bạn xem thông tin thời khóa biểu của một thứ, một ngày cụ thể , hoặc thông tin lịch học của một môn nào đó!
+  - text: Mình có thể giúp bạn xem thông tin thời khóa biểu của một thứ trong tuần, hoặc vào một ngày cụ thể , hoặc thông tin lịch học cho một môn nào đó! 😎
   utter_happy:
-  - text: Hì hì, bạn quá khen rồi
+  - text: Hì hì, bạn quá khen rồi! 😊 
   utter_sorry:
-  - text: Xin lôĩ nha vì mình chưa đủ thông minh để hiểu được các bạn :(((
+  - text: Xin lỗi nha vì mình chưa đủ thông minh để hiểu được các bạn! 🥺
   utter_noworries:
-  - text: Không có chi, mình luôn sẵn lòng giúp đỡ bạn mọi lúc, mọi nơi! ^^
+  - text: Không có chi, mình luôn sẵn lòng giúp đỡ bạn mọi lúc, mọi nơi! 😉
   utter_goodbye:
-  - text: Hẹn gặp lại bạn nha ^^
+  - text: Hẹn gặp lại bạn nha! 🤗
   utter_fallback:
-  - text: Hic, mình xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói lại được không???
+  - text: Hic, mình xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói lại được không??? 🤔
 actions:
 - action_show_schedule
 - action_show_subject_information

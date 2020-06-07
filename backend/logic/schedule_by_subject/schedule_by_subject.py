@@ -1,8 +1,11 @@
+import sys
+sys.path.append('/home/hoangnam/Documents/code/xProjects/bkchatbot')
 import re
 
 from backend.db import db
 from backend.crawler import schedule_crawler
-from .levenshtein import get_similarity
+from backend.logic.schedule_by_subject.levenshtein import get_similarity
+from backend.logic.schedule_by_subject.levenshtein import clean_string
 
 def get_response(sender_id, msg):
     sid = db.get_sid(sender_id)
@@ -20,14 +23,16 @@ def get_response(sender_id, msg):
 
 
 def get_match_rows(schedule_table, msg):
-    rows = set()
+    cleaned_msg = clean_string(msg)
+    rows = []
     for row in schedule_table:
-        if row['subject_name'] in msg:
-            rows.add(row)
+        subject_name = row['subject_name'].lower()
+        if subject_name in cleaned_msg:
+            rows.append(row)
     
     list_regex = re.findall(r'\"(.*?)\"', msg)
-    best_similarity = 0.5
     for regex in list_regex:
+        best_similarity = 0.5
         best = None
         for row in schedule_table:
             similar = get_similarity(regex, row['subject_name'])
@@ -35,6 +40,8 @@ def get_match_rows(schedule_table, msg):
                 best_similarity = similar
                 best = row
         if best:
-            rows.add(row)
+            rows.append(best)
     
-    return list(rows)
+    return rows
+
+get_response('2591237020976102', 'cho xin lịch học môn "Khai phá Web" bot ơi')
