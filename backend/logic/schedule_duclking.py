@@ -22,6 +22,7 @@ def get_respone(sender_id, time_entities):
     sid = db.get_sid(sender_id)
     if not db.has_schedule_table(sid):
         db.set_schedule_table(sid, schedule_crawler.crawl_schedule_table(sid))
+        
     return filter_schedule(time_entities, db.get_schedule_table(sid))
 
 

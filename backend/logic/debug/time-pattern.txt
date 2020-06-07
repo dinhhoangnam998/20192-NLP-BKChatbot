@@ -1,0 +1,30 @@
+ngày 04-06-2020 -> ok
+ngày 03/06/2020 -> ok
+
+ngày hôm nay -> ok
+ngày mai -> ok
+ngày hôm qua -> ok
+ngày kia -> fail
+
+thứ 2 -> ok
+thứ 6 -> ok
+
+thứ hai -> ok
+thứ tư -> ok
+
+sáng mai -> ok
+sáng thứ 2 -> ok 
+chiều hôm qua -> ok
+
+hôm nay và ngày mai -> ok
+thứ 2 và thứ 6 -> ok
+
+thứ 2 tuần trước -> ok
+
+tuần sau -> ok
+tuần trước -> ok
+
+từ thứ 2 đến thứ 5 -> fail
+lúc 9h sáng mai -> parse ok but logic fail
+
+kì học này -> fail
