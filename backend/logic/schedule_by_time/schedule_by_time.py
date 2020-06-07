@@ -1,5 +1,4 @@
-# import sys
-# sys.path.append(r'C:\Users\HoangNam\Documents\Code\xProject\20192-NLP-BTL-BKChatbot')
+import sys
 # sys.path.append('/home/hoangnam/Documents/code/xProjects/bkchatbot')
 
 import json
@@ -64,5 +63,5 @@ def schedule_filter(schedule_table, time_entities):
 
 
 
-# time_entities = [ { "start": 4, "end": 15, "text": "chi\u1ec1u th\u1ee9 3", "value": { "to": "2020-06-09T19:00:00.000+07:00", "from": "2020-06-09T12:00:00.000+07:00" }, "confidence": 1.0, "additional_info": { "values": [ { "to": { "value": "2020-06-09T19:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-09T12:00:00.000+07:00", "grain": "hour" }, "type": "interval" }, { "to": { "value": "2020-06-16T19:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-16T12:00:00.000+07:00", "grain": "hour" }, "type": "interval" }, { "to": { "value": "2020-06-23T19:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-23T12:00:00.000+07:00", "grain": "hour" }, "type": "interval" } ], "to": { "value": "2020-06-09T19:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-09T12:00:00.000+07:00", "grain": "hour" }, "type": "interval" }, "entity": "time", "extractor": "DucklingHTTPExtractor" } ]
+# time_entities = [ { "start": 0, "end": 9, "text": "t\u1ed1i th\u1ee9 2", "value": { "to": "2020-06-09T00:00:00.000+07:00", "from": "2020-06-08T18:00:00.000+07:00" }, "confidence": 1.0, "additional_info": { "values": [ { "to": { "value": "2020-06-09T00:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-08T18:00:00.000+07:00", "grain": "hour" }, "type": "interval" }, { "to": { "value": "2020-06-16T00:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-15T18:00:00.000+07:00", "grain": "hour" }, "type": "interval" }, { "to": { "value": "2020-06-23T00:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-22T18:00:00.000+07:00", "grain": "hour" }, "type": "interval" } ], "to": { "value": "2020-06-09T00:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-08T18:00:00.000+07:00", "grain": "hour" }, "type": "interval" }, "entity": "time", "extractor": "DucklingHTTPExtractor" } ]
 # print(get_response('2591237020976102', time_entities))

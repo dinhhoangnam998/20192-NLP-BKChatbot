@@ -106,4 +106,1115 @@
     "entity": "time",
     "extractor": "DucklingHTTPExtractor"
   }
-][{"start": 0, "end": 5, "text": "th\u1ee9 2", "value": "2020-06-15T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-08T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-22T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 5, "text": "th\u1ee9 3", "value": "2020-06-09T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-09T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-16T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-23T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-09T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 31, "end": 49, "text": "6 th\u00e1ng 6 n\u0103m 2020", "value": "2020-06-06T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-06T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-06T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 31, "end": 51, "text": "04 th\u00e1ng 06 n\u0103m 2020", "value": "2020-06-04T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-04T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-04T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 26, "end": 50, "text": "ng\u00e0y 15 th\u00e1ng 06 n\u0103m nay", "value": "2020-06-15T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 11, "text": "chi\u1ec1u th\u1ee9 3", "value": {"to": "2020-06-09T19:00:00.000+07:00", "from": "2020-06-09T12:00:00.000+07:00"}, "confidence": 1.0, "additional_info": {"values": [{"to": {"value": "2020-06-09T19:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-09T12:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-16T19:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-16T12:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-23T19:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-23T12:00:00.000+07:00", "grain": "hour"}, "type": "interval"}], "to": {"value": "2020-06-09T19:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-09T12:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 10, "text": "s\u00e1ng th\u1ee9 4", "value": {"to": "2020-06-10T12:00:00.000+07:00", "from": "2020-06-10T04:00:00.000+07:00"}, "confidence": 1.0, "additional_info": {"values": [{"to": {"value": "2020-06-10T12:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-10T04:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-17T12:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-17T04:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-24T12:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-24T04:00:00.000+07:00", "grain": "hour"}, "type": "interval"}], "to": {"value": "2020-06-10T12:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-10T04:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 25, "text": "chi\u1ec1u ch\u1ee7 nh\u1eadt tu\u1ea7n tr\u01b0\u1edbc", "value": {"to": "2020-06-07T19:00:00.000+07:00", "from": "2020-06-07T12:00:00.000+07:00"}, "confidence": 1.0, "additional_info": {"values": [{"to": {"value": "2020-06-07T19:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-07T12:00:00.000+07:00", "grain": "hour"}, "type": "interval"}], "to": {"value": "2020-06-07T19:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-07T12:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 9, "text": "t\u1ed1i th\u1ee9 5", "value": {"to": "2020-06-12T00:00:00.000+07:00", "from": "2020-06-11T18:00:00.000+07:00"}, "confidence": 1.0, "additional_info": {"values": [{"to": {"value": "2020-06-12T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-11T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-19T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-18T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-26T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-25T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}], "to": {"value": "2020-06-12T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-11T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 8, "text": "s\u00e1ng mai", "value": {"to": "2020-06-09T12:00:00.000+07:00", "from": "2020-06-09T04:00:00.000+07:00"}, "confidence": 1.0, "additional_info": {"values": [{"to": {"value": "2020-06-09T12:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-09T04:00:00.000+07:00", "grain": "hour"}, "type": "interval"}], "to": {"value": "2020-06-09T12:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-09T04:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 5, "text": "th\u1ee9 2", "value": "2020-06-15T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-08T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-22T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}, {"start": 9, "end": 14, "text": "th\u1ee9 3", "value": "2020-06-09T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-09T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-16T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-23T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-09T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 7, "text": "th\u1ee9 s\u00e1u", "value": "2020-06-12T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-12T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-19T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-26T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-12T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}, {"start": 11, "end": 19, "text": "ch\u1ee7 nh\u1eadt", "value": "2020-06-14T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-14T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-21T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-28T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-14T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 8, "text": "ng\u00e0y mai", "value": "2020-06-09T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-09T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-09T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}, {"start": 14, "end": 21, "text": "th\u1ee9 s\u00e1u", "value": "2020-06-12T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-12T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-19T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-26T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-12T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 5, "text": "th\u1ee9 4", "value": "2020-06-10T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-10T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-17T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-24T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-10T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}, {"start": 9, "end": 14, "text": "th\u1ee9 5", "value": "2020-06-11T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-11T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-18T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-25T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-11T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}, {"start": 18, "end": 23, "text": "th\u1ee9 6", "value": "2020-06-12T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-12T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-19T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-26T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-12T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 14, "text": "9 gi\u1edd s\u00e1ng mai", "value": "2020-06-09T09:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-09T09:00:00.000+07:00", "grain": "hour", "type": "value"}], "value": "2020-06-09T09:00:00.000+07:00", "grain": "hour", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 18, "text": "14 gi\u1edd chi\u1ec1u th\u1ee9 2", "value": "2020-06-08T14:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-08T14:00:00.000+07:00", "grain": "hour", "type": "value"}, {"value": "2020-06-15T14:00:00.000+07:00", "grain": "hour", "type": "value"}, {"value": "2020-06-22T14:00:00.000+07:00", "grain": "hour", "type": "value"}], "value": "2020-06-08T14:00:00.000+07:00", "grain": "hour", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 17, "text": "3 gi\u1edd chi\u1ec1u th\u1ee9 5", "value": "2020-06-11T15:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-11T15:00:00.000+07:00", "grain": "hour", "type": "value"}, {"value": "2020-06-18T15:00:00.000+07:00", "grain": "hour", "type": "value"}, {"value": "2020-06-25T15:00:00.000+07:00", "grain": "hour", "type": "value"}], "value": "2020-06-11T15:00:00.000+07:00", "grain": "hour", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 16, "text": "7 gi\u1edd t\u1ed1i th\u1ee9 t\u01b0", "value": "2020-06-10T19:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-10T19:00:00.000+07:00", "grain": "hour", "type": "value"}, {"value": "2020-06-17T19:00:00.000+07:00", "grain": "hour", "type": "value"}, {"value": "2020-06-24T19:00:00.000+07:00", "grain": "hour", "type": "value"}], "value": "2020-06-10T19:00:00.000+07:00", "grain": "hour", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 8, "text": "tu\u1ea7n sau", "value": "2020-06-15T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-15T00:00:00.000+07:00", "grain": "week", "type": "value"}], "value": "2020-06-15T00:00:00.000+07:00", "grain": "week", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 21, "end": 29, "text": "tu\u1ea7n t\u1edbi", "value": "2020-06-15T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-15T00:00:00.000+07:00", "grain": "week", "type": "value"}], "value": "2020-06-15T00:00:00.000+07:00", "grain": "week", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 21, "end": 30, "text": "th\u00e1ng t\u1edbi", "value": "2020-07-01T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-07-01T00:00:00.000+07:00", "grain": "month", "type": "value"}], "value": "2020-07-01T00:00:00.000+07:00", "grain": "month", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 5, "text": "th\u1ee9 2", "value": "2020-06-15T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-08T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-22T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 5, "text": "th\u1ee9 2", "value": "2020-06-15T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-08T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-22T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-15T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 5, "text": "th\u1ee9 4", "value": "2020-06-10T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-10T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-17T00:00:00.000+07:00", "grain": "day", "type": "value"}, {"value": "2020-06-24T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-10T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}]
+][
+  {
+    "start": 0,
+    "end": 5,
+    "text": "th\u1ee9 2",
+    "value": "2020-06-15T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-08T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-15T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-22T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-15T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 5,
+    "text": "th\u1ee9 3",
+    "value": "2020-06-09T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-09T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-16T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-23T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-09T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 31,
+    "end": 49,
+    "text": "6 th\u00e1ng 6 n\u0103m 2020",
+    "value": "2020-06-06T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-06T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-06T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 31,
+    "end": 51,
+    "text": "04 th\u00e1ng 06 n\u0103m 2020",
+    "value": "2020-06-04T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-04T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-04T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 26,
+    "end": 50,
+    "text": "ng\u00e0y 15 th\u00e1ng 06 n\u0103m nay",
+    "value": "2020-06-15T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-15T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-15T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 11,
+    "text": "chi\u1ec1u th\u1ee9 3",
+    "value": {
+      "to": "2020-06-09T19:00:00.000+07:00",
+      "from": "2020-06-09T12:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-06-09T19:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-09T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-16T19:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-16T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-23T19:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-23T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-06-09T19:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "from": {
+        "value": "2020-06-09T12:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 10,
+    "text": "s\u00e1ng th\u1ee9 4",
+    "value": {
+      "to": "2020-06-10T12:00:00.000+07:00",
+      "from": "2020-06-10T04:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-06-10T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-10T04:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-17T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-17T04:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-24T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-24T04:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-06-10T12:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "from": {
+        "value": "2020-06-10T04:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 25,
+    "text": "chi\u1ec1u ch\u1ee7 nh\u1eadt tu\u1ea7n tr\u01b0\u1edbc",
+    "value": {
+      "to": "2020-06-07T19:00:00.000+07:00",
+      "from": "2020-06-07T12:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-06-07T19:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-07T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-06-07T19:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "from": {
+        "value": "2020-06-07T12:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 9,
+    "text": "t\u1ed1i th\u1ee9 5",
+    "value": {
+      "to": "2020-06-12T00:00:00.000+07:00",
+      "from": "2020-06-11T18:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-06-12T00:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-11T18:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-19T00:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-18T18:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-26T00:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-25T18:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-06-12T00:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "from": {
+        "value": "2020-06-11T18:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 8,
+    "text": "s\u00e1ng mai",
+    "value": {
+      "to": "2020-06-09T12:00:00.000+07:00",
+      "from": "2020-06-09T04:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-06-09T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-09T04:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-06-09T12:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "from": {
+        "value": "2020-06-09T04:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 5,
+    "text": "th\u1ee9 2",
+    "value": "2020-06-15T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-08T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-15T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-22T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-15T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  },
+  {
+    "start": 9,
+    "end": 14,
+    "text": "th\u1ee9 3",
+    "value": "2020-06-09T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-09T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-16T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-23T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-09T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 7,
+    "text": "th\u1ee9 s\u00e1u",
+    "value": "2020-06-12T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-12T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-19T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-26T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-12T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  },
+  {
+    "start": 11,
+    "end": 19,
+    "text": "ch\u1ee7 nh\u1eadt",
+    "value": "2020-06-14T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-14T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-21T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-28T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-14T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 8,
+    "text": "ng\u00e0y mai",
+    "value": "2020-06-09T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-09T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-09T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  },
+  {
+    "start": 14,
+    "end": 21,
+    "text": "th\u1ee9 s\u00e1u",
+    "value": "2020-06-12T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-12T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-19T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-26T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-12T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 5,
+    "text": "th\u1ee9 4",
+    "value": "2020-06-10T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-10T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-17T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-24T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-10T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  },
+  {
+    "start": 9,
+    "end": 14,
+    "text": "th\u1ee9 5",
+    "value": "2020-06-11T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-11T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-18T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-25T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-11T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  },
+  {
+    "start": 18,
+    "end": 23,
+    "text": "th\u1ee9 6",
+    "value": "2020-06-12T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-12T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-19T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-26T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-12T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 14,
+    "text": "9 gi\u1edd s\u00e1ng mai",
+    "value": "2020-06-09T09:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-09T09:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-09T09:00:00.000+07:00",
+      "grain": "hour",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 18,
+    "text": "14 gi\u1edd chi\u1ec1u th\u1ee9 2",
+    "value": "2020-06-08T14:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-08T14:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-15T14:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-22T14:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-08T14:00:00.000+07:00",
+      "grain": "hour",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 17,
+    "text": "3 gi\u1edd chi\u1ec1u th\u1ee9 5",
+    "value": "2020-06-11T15:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-11T15:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-18T15:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-25T15:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-11T15:00:00.000+07:00",
+      "grain": "hour",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 16,
+    "text": "7 gi\u1edd t\u1ed1i th\u1ee9 t\u01b0",
+    "value": "2020-06-10T19:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-10T19:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-17T19:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-24T19:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-10T19:00:00.000+07:00",
+      "grain": "hour",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 8,
+    "text": "tu\u1ea7n sau",
+    "value": "2020-06-15T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-15T00:00:00.000+07:00",
+          "grain": "week",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-15T00:00:00.000+07:00",
+      "grain": "week",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 21,
+    "end": 29,
+    "text": "tu\u1ea7n t\u1edbi",
+    "value": "2020-06-15T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-15T00:00:00.000+07:00",
+          "grain": "week",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-15T00:00:00.000+07:00",
+      "grain": "week",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 21,
+    "end": 30,
+    "text": "th\u00e1ng t\u1edbi",
+    "value": "2020-07-01T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-07-01T00:00:00.000+07:00",
+          "grain": "month",
+          "type": "value"
+        }
+      ],
+      "value": "2020-07-01T00:00:00.000+07:00",
+      "grain": "month",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 5,
+    "text": "th\u1ee9 2",
+    "value": "2020-06-15T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-08T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-15T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-22T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-15T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 5,
+    "text": "th\u1ee9 2",
+    "value": "2020-06-15T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-08T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-15T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-22T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-15T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 5,
+    "text": "th\u1ee9 4",
+    "value": "2020-06-10T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-10T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-17T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-24T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-10T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 9,
+    "text": "t\u1ed1i th\u1ee9 5",
+    "value": {
+      "to": "2020-06-12T00:00:00.000+07:00",
+      "from": "2020-06-11T18:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-06-12T00:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-11T18:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-19T00:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-18T18:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-26T00:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-25T18:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-06-12T00:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "from": {
+        "value": "2020-06-11T18:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 9,
+    "text": "t\u1ed1i th\u1ee9 2",
+    "value": {
+      "to": "2020-06-09T00:00:00.000+07:00",
+      "from": "2020-06-08T18:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-06-09T00:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-08T18:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-16T00:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-15T18:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-23T00:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-22T18:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-06-09T00:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "from": {
+        "value": "2020-06-08T18:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 4,
+    "end": 15,
+    "text": "chi\u1ec1u th\u1ee9 3",
+    "value": {
+      "to": "2020-06-09T19:00:00.000+07:00",
+      "from": "2020-06-09T12:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-06-09T19:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-09T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-16T19:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-16T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        },
+        {
+          "to": {
+            "value": "2020-06-23T19:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-23T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-06-09T19:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "from": {
+        "value": "2020-06-09T12:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][{"start": 0, "end": 9, "text": "t\u1ed1i th\u1ee9 2", "value": {"to": "2020-06-09T00:00:00.000+07:00", "from": "2020-06-08T18:00:00.000+07:00"}, "confidence": 1.0, "additional_info": {"values": [{"to": {"value": "2020-06-09T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-08T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-16T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-15T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-23T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-22T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}], "to": {"value": "2020-06-09T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-08T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 9, "text": "t\u1ed1i th\u1ee9 2", "value": {"to": "2020-06-09T00:00:00.000+07:00", "from": "2020-06-08T18:00:00.000+07:00"}, "confidence": 1.0, "additional_info": {"values": [{"to": {"value": "2020-06-09T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-08T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-16T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-15T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-23T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-22T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}], "to": {"value": "2020-06-09T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-08T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 9, "text": "t\u1ed1i th\u1ee9 5", "value": {"to": "2020-06-12T00:00:00.000+07:00", "from": "2020-06-11T18:00:00.000+07:00"}, "confidence": 1.0, "additional_info": {"values": [{"to": {"value": "2020-06-12T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-11T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-19T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-18T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, {"to": {"value": "2020-06-26T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-25T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}], "to": {"value": "2020-06-12T00:00:00.000+07:00", "grain": "hour"}, "from": {"value": "2020-06-11T18:00:00.000+07:00", "grain": "hour"}, "type": "interval"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}]

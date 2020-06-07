@@ -32,6 +32,8 @@ def filter_by_session(schedule_table, time_entity):
             continue
         if (start_session_hour == 12) and (subject_start_time < 12): # afternoon
             continue
+        if(start_session_hour == 18) and (subject_start_time < 18):  # evening
+            continue
         schedule.append(subject)
     return schedule
         
