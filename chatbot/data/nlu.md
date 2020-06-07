@@ -33,11 +33,13 @@
 ## intent: ask_schedule
 - hôm nay có những môn gì
 - ngày mai có môn gì đấy
-- sáng mai mình có những môn nào?
+- sáng ngày kia mình có những môn nào?
 - chiều hôm qua học gì ấy nhỉ
-- mai có phải đi học không
+- ngày kia có phải đi học không
 - chiều thứ 2 có những môn gì 
 - sáng thứ 3 học môn gì ấy nhỉ
+- ngày thứ tư
+- tối ngày kia
 - chủ nhật có được nghỉ không
 - ngày 30-4-2020 học môn gì đấy
 - thời khóa biểu ngày 12-04-2020
@@ -45,6 +47,8 @@
 - cho xem thời khóa biểu với 
 - thời khóa biểu cho tuần tới
 - ngày mai
+- hôm qua
+- ngày kia
 - môn gì ngày sắp tới
 - cập nhật calendar bot ơi
 - thời khóa biêu có gì mới nào
