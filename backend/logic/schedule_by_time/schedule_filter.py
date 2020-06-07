@@ -1,8 +1,8 @@
 from dateutil import parser
 
 from backend.crawler import calender_crawler
-from backend.logic.schedule_utils import get_weeks_of_subject
-from backend.logic.schedule_utils import get_time_str
+from backend.logic.schedule_by_time.schedule_utils import get_weeks_of_subject
+from backend.logic.schedule_by_time.schedule_utils import get_time_str
 
 
 # e.g. hôm nay, hôm qua, ngày mai, thứ 2, thứ tư, chủ nhật, thứ năm tuần trước, thứ bảy tuần này, 04-06-2020, 10/06/2020 ....

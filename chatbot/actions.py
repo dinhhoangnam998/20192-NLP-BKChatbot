@@ -25,9 +25,10 @@ from rasa_sdk.executor import CollectingDispatcher
 #         return []
 import sys
 sys.path.append('/home/hoangnam/Documents/code/xProjects/bkchatbot')
-from backend.logic.schedule_finder import get_response
+from backend.logic.schedule_by_time import schedule_by_time
+from backend.logic.schedule_by_subject import schedule_by_subject
 
-class ActionShowSchedule(Action):
+class ActionShowScheduleByTime(Action):
 
     def name(self) -> Text:
         return "action_show_schedule"
@@ -36,6 +37,20 @@ class ActionShowSchedule(Action):
         entities = tracker.latest_message['entities']
         sender_id = tracker.sender_id
         # message = tracker.latest_message.get('text')
-        response = get_response(sender_id, entities)
+        response = schedule_by_time.get_response(sender_id, entities)
+        dispatcher.utter_message(text=response)
+        return []
+
+
+class ActionShowScheduleBySubject(Action):
+
+    def name(self) -> Text:
+        return "action_show_subject_information"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        # entities = tracker.latest_message['entities']
+        sender_id = tracker.sender_id
+        message = tracker.latest_message.get('text')
+        response = schedule_by_subject.get_response(sender_id, message)
         dispatcher.utter_message(text=response)
         return []

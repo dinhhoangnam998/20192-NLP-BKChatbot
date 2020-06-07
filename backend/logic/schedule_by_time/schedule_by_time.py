@@ -6,8 +6,8 @@ from dateutil import parser
 
 from backend.db import db
 from backend.crawler import schedule_crawler
-from backend.logic.schedule_utils import make_pretty_string
-from backend.logic.schedule_filter import *
+from backend.logic.schedule_by_time.schedule_utils import make_pretty_string
+from backend.logic.schedule_by_time.schedule_filter import *
 
 
 def get_response(sender_id, time_entities):

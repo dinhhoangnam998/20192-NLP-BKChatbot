@@ -10,6 +10,10 @@
 * ask_schedule
   - action_show_schedule
 
+## ask_a_subject 
+* ask_a_subject
+  - action_show_subject_information
+
 ## praise
 * praise
   - utter_happy

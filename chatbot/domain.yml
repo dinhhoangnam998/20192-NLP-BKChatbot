@@ -5,30 +5,29 @@ intents:
 - greet
 - ask_ability
 - ask_schedule
+- ask_a_subject
 - praise
 - decry
 - thankyou
 - goodbye
 responses:
   utter_greet:
-  - text: Chào bạn ^^. Mình là chatbot được thiết kế để giúp Huster cập nhật thời
-      khóa biểu một cách thuận tiện hơn
+  - text: Chào bạn ^^. Rất vui được gặp bạn! Mình là chatbot được thiết kế để giúp bạn xem thông tin về lịch học dễ dàng hơn!
   utter_show_ability:
-  - text: Mình có thể giúp bạn cập nhật thời khóa biểu trong một ngày hoặc một tuần
-      cụ thể , hoặc thể giúp bạn xem thông tin chi tiết một học phần bất kì trong
-      thời khóa biểu !
+  - text: Mình có thể giúp bạn xem thông tin thời khóa biểu của một thứ, một ngày cụ thể , hoặc thông tin lịch học của một môn nào đó!
   utter_happy:
-  - text: Hì hì, bạn khen quá lời rồi
+  - text: Hì hì, bạn quá khen rồi
   utter_sorry:
   - text: Xin lôĩ nha vì mình chưa đủ thông minh để hiểu được các bạn :(((
   utter_noworries:
-  - text: Mình luôn sẵn lòng giúp đỡ bất cứ khi nào các bạn cần ^^
+  - text: Không có chi, mình luôn sẵn lòng giúp đỡ bạn mọi lúc, mọi nơi! ^^
   utter_goodbye:
   - text: Hẹn gặp lại bạn nha ^^
   utter_fallback:
   - text: Hic, mình xin lỗi, mình chưa hiểu ý bạn lắm. Bạn có thể nói lại được không???
 actions:
 - action_show_schedule
+- action_show_subject_information
 - utter_greet
 - utter_show_ability
 - utter_happy
