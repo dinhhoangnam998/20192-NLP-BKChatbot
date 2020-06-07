@@ -53,7 +53,7 @@ def schedule_filter(schedule_table, time_entities):
                 sub_schedule = (filter_by_multi_week(schedule_table, time_entity))
             elif grain == 'month':
                 sub_schedule = (filter_by_multi_month(schedule_table, time_entity))
-        schedule.append({text_extracted: sub_schedule})
+        schedule.append((text_extracted, sub_schedule))
     return schedule
 
 
@@ -112,7 +112,7 @@ def filter_by_session(schedule_table, time_entity):
             continue
         if (start_session_hour == 12) and (subject_start_time < 12): # afternoon
             continue
-        schedule.append(subject_start_time)
+        schedule.append(subject)
     return schedule
         
 
@@ -127,12 +127,15 @@ def filter_by_multi_month(schedule_table, time_entity):
 
 def make_pretty_string(schedule):
     pretty_string = ''
-    for sub_schedule_of_time_entity in schedule:
-        for text_extracted, subjects in sub_schedule_of_time_entity.items():
-            pretty_string += (text_extracted + ':\n')
+    for item in schedule:
+        text_extracted, subjects = item
+        pretty_string += (text_extracted + ':\n')
+        if len(subjects) == 0:
+            pretty_string += 'Không có môn học nào!'
+        else:
             for subject in subjects:
                 pretty_string += "|".join([subject['semester'], subject['time'], subject['classroom'], subject['subject_name']]) + '\n'
-            pretty_string += '\n'
+        pretty_string += '\n'
     return pretty_string
 
 # get list of weeks
@@ -154,5 +157,5 @@ def get_time_str(time_entity):
     else:
         return time_entity['value']['from']
 
-# time_entities = [{'start': 0, 'end': 15, 'text': 'ngày 03-06-2020', 'value': '2020-06-03T00:00:00.000+07:00', 'confidence': 1.0, 'additional_info': {'values': [{'value': '2020-06-03T00:00:00.000+07:00', 'grain': 'day', 'type': 'value'}], 'value': '2020-06-03T00:00:00.000+07:00', 'grain': 'day', 'type': 'value'}, 'entity': 'time', 'extractor': 'DucklingHTTPExtractor'}, {'start': 19, 'end': 34, 'text': 'ngày 04-06-2020', 'value': '2020-06-04T00:00:00.000+07:00', 'confidence': 1.0, 'additional_info': {'values': [{'value': '2020-06-04T00:00:00.000+07:00', 'grain': 'day', 'type': 'value'}], 'value': '2020-06-04T00:00:00.000+07:00', 'grain': 'day', 'type': 'value'}, 'entity': 'time', 'extractor': 'DucklingHTTPExtractor'}]
+# time_entities = [ { "start": 4, "end": 15, "text": "chi\u1ec1u th\u1ee9 3", "value": { "to": "2020-06-09T19:00:00.000+07:00", "from": "2020-06-09T12:00:00.000+07:00" }, "confidence": 1.0, "additional_info": { "values": [ { "to": { "value": "2020-06-09T19:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-09T12:00:00.000+07:00", "grain": "hour" }, "type": "interval" }, { "to": { "value": "2020-06-16T19:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-16T12:00:00.000+07:00", "grain": "hour" }, "type": "interval" }, { "to": { "value": "2020-06-23T19:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-23T12:00:00.000+07:00", "grain": "hour" }, "type": "interval" } ], "to": { "value": "2020-06-09T19:00:00.000+07:00", "grain": "hour" }, "from": { "value": "2020-06-09T12:00:00.000+07:00", "grain": "hour" }, "type": "interval" }, "entity": "time", "extractor": "DucklingHTTPExtractor" } ]
 # print(get_response('2591237020976102', time_entities))
