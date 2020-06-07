@@ -101,3 +101,4 @@ def get_schedule_for_a_day(time_str, text, schedule_table):
 
 # time_entities = [{'start': 0, 'end': 15, 'text': 'ngày 03-06-2020', 'value': '2020-06-03T00:00:00.000+07:00', 'confidence': 1.0, 'additional_info': {'values': [{'value': '2020-06-03T00:00:00.000+07:00', 'grain': 'day', 'type': 'value'}], 'value': '2020-06-03T00:00:00.000+07:00', 'grain': 'day', 'type': 'value'}, 'entity': 'time', 'extractor': 'DucklingHTTPExtractor'}, {'start': 19, 'end': 34, 'text': 'ngày 04-06-2020', 'value': '2020-06-04T00:00:00.000+07:00', 'confidence': 1.0, 'additional_info': {'values': [{'value': '2020-06-04T00:00:00.000+07:00', 'grain': 'day', 'type': 'value'}], 'value': '2020-06-04T00:00:00.000+07:00', 'grain': 'day', 'type': 'value'}, 'entity': 'time', 'extractor': 'DucklingHTTPExtractor'}]
 # print(get_respone('2591237020976102', time_entities))
+

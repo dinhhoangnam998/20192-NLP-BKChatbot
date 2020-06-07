@@ -1,0 +1,173 @@
+[
+  {
+    "start": 0,
+    "end": 7,
+    "text": "h\u00f4m nay",
+    "value": "2020-06-07T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-07T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-07T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 5,
+    "text": "th\u1ee9 2",
+    "value": "2020-06-08T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-08T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-15T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        },
+        {
+          "value": "2020-06-22T00:00:00.000+07:00",
+          "grain": "day",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-08T00:00:00.000+07:00",
+      "grain": "day",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 9,
+    "text": "chi\u1ec1u mai",
+    "value": {
+      "to": "2020-06-08T19:00:00.000+07:00",
+      "from": "2020-06-08T12:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-06-08T19:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "from": {
+            "value": "2020-06-08T12:00:00.000+07:00",
+            "grain": "hour"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-06-08T19:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "from": {
+        "value": "2020-06-08T12:00:00.000+07:00",
+        "grain": "hour"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 14,
+    "text": "9 gi\u1edd s\u00e1ng mai",
+    "value": "2020-06-08T09:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-08T09:00:00.000+07:00",
+          "grain": "hour",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-08T09:00:00.000+07:00",
+      "grain": "hour",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 8,
+    "text": "tu\u1ea7n sau",
+    "value": "2020-06-08T00:00:00.000+07:00",
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "value": "2020-06-08T00:00:00.000+07:00",
+          "grain": "week",
+          "type": "value"
+        }
+      ],
+      "value": "2020-06-08T00:00:00.000+07:00",
+      "grain": "week",
+      "type": "value"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][
+  {
+    "start": 0,
+    "end": 11,
+    "text": "2 th\u00e1ng t\u1edbi",
+    "value": {
+      "to": "2020-09-01T00:00:00.000+07:00",
+      "from": "2020-07-01T00:00:00.000+07:00"
+    },
+    "confidence": 1.0,
+    "additional_info": {
+      "values": [
+        {
+          "to": {
+            "value": "2020-09-01T00:00:00.000+07:00",
+            "grain": "month"
+          },
+          "from": {
+            "value": "2020-07-01T00:00:00.000+07:00",
+            "grain": "month"
+          },
+          "type": "interval"
+        }
+      ],
+      "to": {
+        "value": "2020-09-01T00:00:00.000+07:00",
+        "grain": "month"
+      },
+      "from": {
+        "value": "2020-07-01T00:00:00.000+07:00",
+        "grain": "month"
+      },
+      "type": "interval"
+    },
+    "entity": "time",
+    "extractor": "DucklingHTTPExtractor"
+  }
+][{"start": 0, "end": 15, "text": "ng\u00e0y 03-06-2020", "value": "2020-06-03T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-03T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-03T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}, {"start": 19, "end": 34, "text": "ng\u00e0y 04-06-2020", "value": "2020-06-04T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-04T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-04T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 15, "text": "ng\u00e0y 03-06-2020", "value": "2020-06-03T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-03T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-03T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}, {"start": 19, "end": 34, "text": "ng\u00e0y 04-06-2020", "value": "2020-06-04T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-04T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-04T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}][{"start": 0, "end": 15, "text": "ng\u00e0y 03-06-2020", "value": "2020-06-03T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-03T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-03T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}, {"start": 19, "end": 34, "text": "ng\u00e0y 04-06-2020", "value": "2020-06-04T00:00:00.000+07:00", "confidence": 1.0, "additional_info": {"values": [{"value": "2020-06-04T00:00:00.000+07:00", "grain": "day", "type": "value"}], "value": "2020-06-04T00:00:00.000+07:00", "grain": "day", "type": "value"}, "entity": "time", "extractor": "DucklingHTTPExtractor"}]
