@@ -1,3 +1,5 @@
+
+# join string to make response to user
 def make_pretty_string(schedule):
     pretty_string = ''
     for item in schedule:
@@ -12,6 +14,7 @@ def make_pretty_string(schedule):
     return pretty_string
 
 
+# get array of week of subject
 def get_weeks_of_subject(subject_schedule):
     weeks = subject_schedule['weeks']
     week_A_start = int(weeks.split(',')[0].split('-')[0])
@@ -24,6 +27,7 @@ def get_weeks_of_subject(subject_schedule):
     return weeks
 
 
+# extract time_str from time_entity
 def get_time_str(time_entity):
     type = time_entity['additional_info']['type']
     if (type == 'value'):
