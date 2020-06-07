@@ -1,0 +1,42 @@
+1.
+hôm nay 
+ngày mai
+hôm qua
+ngày hôm kia
+thứ 2
+thứ tư
+chủ nhật
+thứ 3 tuần sau
+thứ năm tuần trước
+06-06-2020
+15/06/2020
+mùng 4 tháng 6 năm 2020
+ngày 15 tháng 06 năm nay
+....
+
+2.
+chiều thứ 3
+sáng thứ 4
+chiều chủ nhật tuần trước
+tối thứ 5 tuân này --> fail logic
+sáng mai
+chiều ngày kia --> parse fail
+...
+
+3.
+thứ 2 và thứ 3
+thứ năm và chủ nhật
+ngày mai hoặc thứ sáu
+ngày hôm qua và ngày hôm kia
+thứ 4 và thứ 5 và thứ 6 --> slow
+
+4.
+9 giờ sáng mai
+14 giờ chiều thứ 2
+3 giờ chiều thứ 5
+7 giờ tối thứ tư
+
+5.
+tuần sau
+tuần tới
+tháng tới

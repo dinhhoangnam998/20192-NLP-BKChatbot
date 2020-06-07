@@ -80,5 +80,17 @@ class ActionSaveSid(Action):
             return []
         message = tracker.latest_message.get('text')
         db.set_sid(sender_id, message)
-        dispatcher.utter_message(text='Ok! Giờ tớ đã sẵn sàng trợ giúp cậu xem thời khóa biểu')
+        dispatcher.utter_message(text='Ok! Giờ tớ đã sẵn sàng trợ giúp bạn xem thời khóa biểu')
+        return []
+
+
+class ActionSaveData(Action):
+
+    def name(self) -> Text:
+        return "action_save_data"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        db.save_sender_id_to_sid()
+        db.save_sid_to_schedule_table()
+        dispatcher.utter_message(text='Ok! data is saved!')
         return []

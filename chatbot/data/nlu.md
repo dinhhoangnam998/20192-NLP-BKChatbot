@@ -6,8 +6,10 @@
 - hi there
 - hey
 - bot ơi
-- xin chào 
+- xin chào
+- chao bot 
 - chào bot
+- xin chao
 - chào bạn
 - chào em
 - alo alo
@@ -18,14 +20,19 @@
 
 ## intent:ask_ability
 - thế bot có những chức năng gì?
+- the bot co nhung chuc nang gi?
 - bạn có thể  làm được những gì?
 - em có thể làm những gì nhỉ
+- bot co the lam duoc nhung gi
 - em giúp gì được anh không?
 - bot có thể giúp gì cho anh?
+- bot co the giup dc gi?
 - bot làm dc những gì?
+- bot biet lam nhung gi?
 - bot biết làm những gì thế?
 - bạn biết hát không?
 - bạn biết xem lịch học ah?
+- ban biet nhung lam gi?
 - em biết làm gì?
 - em hỗ trợ anh như thế nào?
 - cho anh xem các chức năng của em
@@ -52,56 +59,83 @@
 - 20203753
 - 20206372
 
-## intent:ask_schedule
+
+## intent: ask_schedule
 - hôm nay có những môn gì
 - ngày mai có môn gì đấy
+- ngay mai co nhung mon gi
 - sáng ngày kia mình có những môn nào?
+- hom qua
+- ngay mai
 - chiều hôm qua học gì ấy nhỉ
 - ngày kia có phải đi học không
+- thứ 6
 - chiều thứ 2 có những môn gì 
+- ngay hom qua
 - sáng thứ 3 học môn gì ấy nhỉ
 - ngày thứ tư
+- ngay thu ba
+- thứ 5
 - tối ngày kia
 - chủ nhật có được nghỉ không
 - ngày 30-4-2020 học môn gì đấy
+- thu 2
 - thời khóa biểu ngày 12-04-2020
+- hom nay
 - cho xem lịch học ngày 10/06/2020
 - cho xem thời khóa biểu với 
+- chu nhat
 - thời khóa biểu cho tuần tới
-- ngày mai
+- cho xin lich hoc vao ngay 15/06/2020
 - hôm qua
+- hom nay
 - ngày kia
 - môn gì ngày sắp tới
+- hom nay co nhung mon gi
 - cập nhật calendar bot ơi
+- hôm nay
 - thời khóa biêu có gì mới nào
 - mai học gì vậy?
 - ngày 12-3-2020 có lịch học là gì
 - cho xem lịch học tháng sau
+- ngay mai
 - thời khóa biểu năm sau
 - kì trước học gì ấy nhỉ
+- cho xin thoi khoa bieu tuan nay
 - thời khóa biểu kì này
 - cho xem lịch học đi
 
-## intent:ask_a_subject
+
+
+## intent: ask_a_subject
 - lịch học môn ""
 - thời khóa biểu môn ""
+- thoi khoa bieu mon ""
 - môn học "" vào thứ mấy
 - thứ mấy học môn ""
+- mon "" hoc vao hom thu may
 - cho xin lịch học môn "Tính toán phân tán" với
 - cho hỏi môn "" học vào những hôm nào 
+- mon ""
 - khi nào thì phải đi học môn "Khai phá Web" ấy nhỉ
 - cho xem thông tin môn học "" với
+- hoc phan ""
 - xin thời khóa biểu cho môn "" với
+- lich hoc mon
+- lịch học môn
 - học phần "Xử lý ngôn ngữ tự nhiên" học vào hôm nào thế
 - môn "" học vào thứ mấy ấy nhỉ
 - mấy giờ học môn "" ấy nhỉ
 - xin lịch học cụ thể  của môn ""
+- xin thong tin mon hoc
 - xin thông tin lịch học cho học phần ""
 - thời khóa biểu của môn ""
 - lịch học của học phần ""
+- mon hoc
 - chi tiết môn học ""
 - môn này học bao giờ thế ?
 - ngày đi học môn ""
+- khi nào học môn
 - mình muốn xem lịch học của một môn được không?
 
 ## intent:praise

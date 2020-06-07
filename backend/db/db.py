@@ -1,7 +1,6 @@
 import json
 from backend.crawler import calender_crawler 
 
-# sender_id_to_sid = {'2591237020976102': '20162793', '1756189307838190': '20161925', '2643352335766377': '20161925'}
 sender_id_to_sid = {}
 sid_to_schedule_table = {}
 
@@ -34,19 +33,22 @@ def get_schedule_table(sid):
 
 # save & load
 def save_sender_id_to_sid():
-    with open('sender_id_to_sid.json', 'w') as f:
+    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/sender_id_to_sid.json', 'w') as f:
         json.dump(sender_id_to_sid, f)
 
 def save_sid_to_schedule_table():
-    with open('sid_to_schedule_table.json', 'w') as f:
-        json.dump(sender_id_to_sid, f)
+    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/sid_to_schedule_table.json', 'w') as f:
+        json.dump(sid_to_schedule_table, f)
 
 def load_sender_id_to_sid():
     global sender_id_to_sid
-    with open('sender_id_to_sid.json') as f:
+    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/sender_id_to_sid.json') as f:
         sender_id_to_sid = json.load(f)
 
 def load_sid_to_schedule_table():
     global sid_to_schedule_table
-    with open('sid_to_schedule_table.json') as f:
+    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/sid_to_schedule_table.json') as f:
         sid_to_schedule_table = json.load(f)
+
+load_sender_id_to_sid()
+load_sid_to_schedule_table()
