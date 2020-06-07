@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/hoangnam/Documents/code/xProjects/bkchatbot')
+sys.path.append(r'C:\Users\HoangNam\Documents\Code\xProject\20192-NLP-BTL-BKChatbot')
 import re
 
 from backend.db import db

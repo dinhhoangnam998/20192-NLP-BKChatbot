@@ -1,5 +1,5 @@
 # import sys
-# sys.path.append('/home/hoangnam/Documents/code/xProjects/bkchatbot')
+# sys.path.append(r'C:\Users\HoangNam\Documents\Code\xProject\20192-NLP-BTL-BKChatbot')
 
 import json
 from dateutil import parser
@@ -14,7 +14,7 @@ def get_response(sender_id, time_entities):
     if not time_entities: 
         return 'xin lỗi, bạn có thể cho tớ thời gian cụ thể hơn được không?'
 
-    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/logic/debug/time_entities.json', 'a') as f:
+    with open(r'C:\Users\HoangNam\Documents\Code\xProject\20192-NLP-BTL-BKChatbot\backend\logic\debug\time_entities.json', 'a') as f:
         json.dump(time_entities, f)
 
     sid = db.get_sid(sender_id)

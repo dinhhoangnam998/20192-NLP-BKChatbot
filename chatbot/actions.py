@@ -24,7 +24,7 @@ from rasa_sdk.executor import CollectingDispatcher
 
 #         return []
 import sys
-sys.path.append('/home/hoangnam/Documents/code/xProjects/bkchatbot')
+sys.path.append(r'C:\Users\HoangNam\Documents\Code\xProject\20192-NLP-BTL-BKChatbot')
 from backend.logic.schedule_by_time import schedule_by_time
 from backend.logic.schedule_by_subject import schedule_by_subject
 
