@@ -1,4 +1,5 @@
 from dateutil import parser
+from datetime import datetime
 
 from backend.crawler import calender_crawler
 from backend.logic.schedule_by_time.schedule_utils import get_weeks_of_subject
@@ -78,3 +79,20 @@ def filter_by_multi_week(schedule_table, time_entity):
 def filter_by_multi_month(schedule_table, time_entity):
     return schedule_table
 
+
+def check_out_of_semester(time_entity):
+    time_str = get_time_str(time_entity)
+    date_str = time_str.split('T')[0]
+    date_ask = datetime.strptime(date_str, '%Y-%m-%d')
+    today = datetime.now()
+    diff_days  = (date_ask - today).days
+    diff_weeks = diff_days // 7
+    semester_now = calender_crawler.crawl_callender()[0]
+    week_now = int(calender_crawler.crawl_callender()[1])
+    week_asked = week_now + diff_weeks
+    if (semester_now[4] == '1') and (week_asked > 25 or week_asked < 0): # 20191, 20201, 20211....
+        return True
+    if (semester_now[4] == '2') and (week_asked <= 25 or week_asked > 50):
+        return True
+    return False
+    

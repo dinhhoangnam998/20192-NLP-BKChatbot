@@ -33,6 +33,11 @@ def schedule_filter(schedule_table, time_entities):
 
     for time_entity in time_entities:
         text_extracted = time_entity['text']
+
+        if(check_out_of_semester(time_entity)):
+            schedule.append((text_extracted, [{'semester': None}]))
+            continue
+
         type = time_entity['additional_info']['type']
         
         if type == 'value':

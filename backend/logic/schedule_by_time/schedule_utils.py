@@ -7,6 +7,8 @@ def make_pretty_string(schedule):
         pretty_string += (text_extracted + ':\n')
         if len(subjects) == 0:
             pretty_string += 'Không có môn học nào!'
+        elif (len(subjects) == 1) and (subjects[0]['semester'] == None):
+            pretty_string += 'Không thuộc vào kì học này!'
         else:
             for subject in subjects:
                 pretty_string += "|".join([subject['semester'], subject['time'], subject['classroom'], subject['subject_name']]) + '\n'
