@@ -18,7 +18,7 @@ ngày 15 tháng 06 năm nay
 chiều thứ 3
 sáng thứ 4
 chiều chủ nhật tuần trước
-tối thứ 5 tuân này --> fail logic
+tối thứ 5 tuân này --> fail logic --> fixed
 sáng mai
 chiều ngày kia --> parse fail
 ...

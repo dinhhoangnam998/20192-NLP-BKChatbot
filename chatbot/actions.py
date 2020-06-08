@@ -38,6 +38,8 @@ class ActionShowScheduleByTime(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         entities = tracker.latest_message['entities']
         sender_id = tracker.sender_id
+        if not db.has_sid(sender_id):
+            return [FollowupAction('action_ask_sid_if_need')]
         # message = tracker.latest_message.get('text')
         response = schedule_by_time.get_response(sender_id, entities)
         dispatcher.utter_message(text=response)
@@ -52,6 +54,8 @@ class ActionShowScheduleBySubject(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         # entities = tracker.latest_message['entities']
         sender_id = tracker.sender_id
+        if not db.has_sid(sender_id):
+            return [FollowupAction('action_ask_sid_if_need')]
         message = tracker.latest_message.get('text')
         response = schedule_by_subject.get_response(sender_id, message)
         dispatcher.utter_message(text=response)
@@ -80,7 +84,7 @@ class ActionSaveSid(Action):
             return []
         message = tracker.latest_message.get('text')
         db.set_sid(sender_id, message)
-        dispatcher.utter_message(text='Ok! Giờ tớ đã sẵn sàng trợ giúp bạn xem thời khóa biểu')
+        dispatcher.utter_message(text='👌 Giờ tớ đã sẵn sàng trợ giúp bạn xem thời khóa biểu')
         return []
 
 

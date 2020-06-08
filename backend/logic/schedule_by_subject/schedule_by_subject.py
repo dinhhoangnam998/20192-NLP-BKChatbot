@@ -15,8 +15,10 @@ def get_response(sender_id, msg):
         db.set_schedule_table(sid, schedule_crawler.crawl_schedule_table(sid))
 
     rows = get_match_rows(db.get_schedule_table(sid), msg)
-
+    
     response = ''
+    if not rows:
+        response = "Không tìm thấy thông tin nào về môn học đó trong thời khóa biểu của bạn! 🧐 "
     for row in rows:
         response += "|".join([row['semester'], row['time'], row['classroom'], row['subject_name']]) + '\n'
 
@@ -24,24 +26,19 @@ def get_response(sender_id, msg):
 
 
 def get_match_rows(schedule_table, msg):
+    list_regex = re.findall(r'\"(.*?)\"', msg)
     cleaned_msg = clean_string(msg)
     rows = []
+
     for row in schedule_table:
         subject_name = row['subject_name'].lower()
         if subject_name in cleaned_msg:
             rows.append(row)
-    
-    list_regex = re.findall(r'\"(.*?)\"', msg)
-    for regex in list_regex:
-        best_similarity = 0.5
-        best = None
-        for row in schedule_table:
-            similar = get_similarity(regex, row['subject_name'])
-            if similar > best_similarity:
-                best_similarity = similar
-                best = row
-        if best:
-            rows.append(best)
+        else:
+            for regex in list_regex:
+                similar = get_similarity(regex, subject_name)
+                if similar >= 0.5:
+                    rows.append(row)
     
     return rows
 

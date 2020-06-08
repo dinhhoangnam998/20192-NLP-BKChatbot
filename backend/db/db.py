@@ -33,21 +33,21 @@ def get_schedule_table(sid):
 
 # save & load
 def save_sender_id_to_sid():
-    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/sender_id_to_sid.json', 'w') as f:
+    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/data/sender_id_to_sid.json', 'w') as f:
         json.dump(sender_id_to_sid, f)
 
 def save_sid_to_schedule_table():
-    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/sid_to_schedule_table.json', 'w') as f:
+    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/data/sid_to_schedule_table.json', 'w') as f:
         json.dump(sid_to_schedule_table, f)
 
 def load_sender_id_to_sid():
     global sender_id_to_sid
-    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/sender_id_to_sid.json') as f:
+    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/data/sender_id_to_sid.json') as f:
         sender_id_to_sid = json.load(f)
 
 def load_sid_to_schedule_table():
     global sid_to_schedule_table
-    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/sid_to_schedule_table.json') as f:
+    with open('/home/hoangnam/Documents/code/xProjects/bkchatbot/backend/db/data/sid_to_schedule_table.json') as f:
         sid_to_schedule_table = json.load(f)
 
 load_sender_id_to_sid()
