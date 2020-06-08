@@ -5,4 +5,5 @@ môn "xử lý ngôn ngữ tự nhiê"
 khi nào đi học môn "xác xuất thống kê"
 thời khóa biểu môn "TIẾNG NHẬT"
 môn "Tính toán phân tàn" học vào lúc nào
+xin lịch học môn "Tính toán phân tán" và "Tiếng Nhật I"
 

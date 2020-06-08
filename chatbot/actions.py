@@ -69,7 +69,7 @@ class ActionAskSidIfNeed(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         sender_id = tracker.sender_id
         if not db.has_sid(sender_id):
-            dispatcher.utter_message(text='Mà, mã số sinh viên của bạn là gì ấy nhỉ!?')
+            dispatcher.utter_message(text='Cho mình hỏi mã số sinh viên của bạn là gì ấy nhỉ!?')
         return []
 
 
