@@ -9,8 +9,14 @@
 - xin chào
 - chao bot 
 - chào bot
+- ohaio
+- bot ten la gi
+- tên bạn là gì
+- aloha
 - xin chao
+- ten bot la gi
 - chào bạn
+- bot tên là gì
 - chào em
 - alo alo
 - hú
@@ -23,17 +29,22 @@
 - the bot co nhung chuc nang gi?
 - bạn có thể  làm được những gì?
 - em có thể làm những gì nhỉ
+- chức năng
 - bot co the lam duoc nhung gi
+- show chức năng
 - em giúp gì được anh không?
 - bot có thể giúp gì cho anh?
 - bot co the giup dc gi?
 - bot làm dc những gì?
 - bot biet lam nhung gi?
 - bot biết làm những gì thế?
+- help
 - bạn biết hát không?
 - bạn biết xem lịch học ah?
 - ban biet nhung lam gi?
 - em biết làm gì?
+- tôi phải làm gì tiếp theo
+- toi can phai lam gi
 - em hỗ trợ anh như thế nào?
 - cho anh xem các chức năng của em
 
@@ -104,8 +115,6 @@
 - cho xin thoi khoa bieu tuan nay
 - thời khóa biểu kì này
 - cho xem lịch học đi
-
-
 
 ## intent: ask_a_subject
 - lịch học môn ""
@@ -200,10 +209,14 @@
 - bye bye
 - tạm biệt em
 - tạm biệt bot nhá
+- thôi đi đây
 - tạm biệt bạn nha
 - bye
+- thôi nhá
+- nghỉ nhé
 - gặp sau nha
 - hẹn lần khác
+- bye nhé
 - lúc khác nói tiếp sau
 - thôi nha
 - gặp sau

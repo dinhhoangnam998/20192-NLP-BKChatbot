@@ -14,7 +14,7 @@ intents:
 - save
 responses:
   utter_greet:
-  - text: Chào bạn 😃. Rất vui được gặp bạn! Mình là chatbot được thiết kế để giúp bạn xem thông tin về lịch học dễ dàng hơn!
+  - text: Chào bạn 😃. Rất vui được gặp bạn! Mình là BKChatbot-Rasa được thiết kế để giúp bạn xem thông tin về lịch học dễ dàng hơn!
   utter_show_ability:
   - text: Mình có thể giúp bạn xem thông tin thời khóa biểu của một thứ trong tuần, hoặc vào một ngày cụ thể , hoặc thông tin lịch học cho một môn nào đó! 😎
   utter_happy:
