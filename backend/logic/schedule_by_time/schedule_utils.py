@@ -16,14 +16,18 @@ def make_pretty_string(schedule):
 
 # get array of week of subject
 def get_weeks_of_subject(subject_schedule):
-    weeks = subject_schedule['weeks']
-    week_A_start = int(weeks.split(',')[0].split('-')[0])
-    week_A_end = int(weeks.split(',')[0].split('-')[1])
-    week_B_start = int(weeks.split(',')[1].split('-')[0])
-    week_B_end = int(weeks.split(',')[1].split('-')[1])
 
-    weeks = list(range(week_A_start, week_A_end + 1))
-    weeks.extend(list(range(week_B_start, week_B_end + 1)))
+    weeks = subject_schedule['weeks']
+    if len(weeks.split(',')) == 2:  # 28-35,37-44
+        week_A_start = int(weeks.split(',')[0].split('-')[0])
+        week_A_end = int(weeks.split(',')[0].split('-')[1])
+        week_B_start = int(weeks.split(',')[1].split('-')[0])
+        week_B_end = int(weeks.split(',')[1].split('-')[1])
+
+        weeks = list(range(week_A_start, week_A_end + 1))
+        weeks.extend(list(range(week_B_start, week_B_end + 1)))
+    else:                           # 33,35,38,40,42,44
+        weeks = weeks.split(",")
     return weeks
 
 

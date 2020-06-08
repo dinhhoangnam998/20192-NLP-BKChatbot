@@ -80,8 +80,9 @@ class ActionSaveSid(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         sender_id = tracker.sender_id
-        if db.has_sid(sender_id):
-            return []
+        # TODO: tam thoi cho phep thay doi mssv
+        # if db.has_sid(sender_id):
+        #     return []
         message = tracker.latest_message.get('text')
         db.set_sid(sender_id, message)
         dispatcher.utter_message(text='👌 Giờ tớ đã sẵn sàng trợ giúp bạn xem thời khóa biểu')
